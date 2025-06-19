@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+/* Root Class */
+:root {
+    --bg-primary: #CAFF33;
+    --bg-secondary:#1C1C1C;
+    --bg-third: white;
+
+}
+/* Fonts and colors */
+.navcent-nav {
+    background-color: var(--bg-secondary);
+}
+.fs-18{
+    font-size: 18px;
+}
+.bg-green{
+    background-color: var(--bg-primary);
+}
+.span-color{
+    color: var(--bg-primary);
+}
+.n-margin{
+    margin-right: -200px;
+}
+.text-color{
+    color: var(--bg-third);
+}
+
+.navbar-color{
+    color: Grey/15;
+}
+
+.btn{
+    background-color: Grey/15;
+    color: #262626;
+}
+
+/* Navbar background */
+.custom-navbar-bg {
+    background: linear-gradient(90deg, #262626, rgba(128, 128, 128, 0.15));
+    border-radius: 100px;
+    padding: 15px 25px;
+ }
+
+ .faq-card {
+  background: linear-gradient(to bottom, #262626, rgba(128, 128, 128, 0.15));
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+
+ /* Here Section */
+  .dotted-img {
+    position: absolute;
+    top: 100px;
+    right: 35px;
+    width: 180px;
+    height: auto;
+  }
+
+
+/* Continue Section */
+  
+  .or-divider {
+    width: 518px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .or-divider .line {
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .btncolor{
+    text-decoration: none;
+    color: #1C1C1C;
+  }
+ 

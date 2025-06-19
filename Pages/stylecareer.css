@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+/* Root Class */
+:root {
+    --bg-primary: #CAFF33;
+    --bg-secondary:#1C1C1C;
+    --bg-third: white;
+
+}
+/* Fonts and colors */
+.navcent-nav {
+    background-color: var(--bg-secondary);
+}
+.fs-18{
+    font-size: 18px;
+}
+.bg-green{
+    background-color: var(--bg-primary);
+}
+.span-color{
+    color: var(--bg-primary);
+}
+.n-margin{
+    margin-right: -200px;
+}
+.text-color{
+    color: var(--bg-third);
+}
+
+/* Navbar background */
+.custom-navbar-bg {
+    background: linear-gradient(90deg, #262626, rgba(128, 128, 128, 0.15));
+    border-radius: 100px;
+    padding: 20px 34px;
+  }
+
+.custom-border-left {
+    border-left: 1px solid #CAFF33;
+    padding-left: 20px;
+    height: 100%;
+  }
+
+  .badge-custom {
+    background-color: #787676;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  /* For frequently asked questions */
+.faq-card {
+    background: linear-gradient(to bottom, #262626, rgba(128, 128, 128, 0.15));
+  border: 2px solid black;
+  border-radius: 1rem;
+  }
+
+  /* CTA Box */
+  
+  .cta-box {
+    background-color: #141414;
+    border-radius: 1rem;
+    padding: 2rem;
+    position: relative;
+    color: #fff;
+    overflow: hidden;
+  }
+
+  .cta-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle at top left, rgba(255,255,255,0.1), transparent 60%);
+    z-index: 0;
+  }
+
+  .cta-box h2 span {
+    color: #CAFF33; /* neon green */
+  }
+
+  .cta-box .btn-custom {
+    background-color: #c6ff00;
+    color: #000;
+    font-weight: 500;
+    border-radius: 999px;
+    padding: 0.5rem 1.5rem;
+    transition: 0.3s ease;
+  }
+
+  .cta-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .btncolor{
+    text-decoration: none;
+    color: #1C1C1C;
+  }
